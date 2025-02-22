@@ -2,8 +2,8 @@ const syncMysql         = require('sync-mysql');
 const CONFIG            = require('./config');
 
 // const task_01 = require('./task_01');
-const task_02 = require('./task_02');
-// const task_03 = require('./task_03');
+// const task_02 = require('./task_02');
+const task_03 = require('./task_03');
 // const task_04 = require('./task_04');
 // const task_05 = require('./task_05');
 // const task_06 = require('./task_06');
@@ -21,10 +21,10 @@ const task_02 = require('./task_02');
 // console.log(task_01('SELECT model FROM cars'));
 
 // Task 02
-console.log(task_02());
+// console.log(task_02());
 
 // Task 03
-// console.log(task_03());
+console.log(task_03());
 
 // Task 04
 // console.log(task_04());
