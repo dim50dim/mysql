@@ -1,7 +1,7 @@
 const syncMysql         = require('sync-mysql');
 const CONFIG            = require('./config');
 
-// const task_01 = require('./task_01');
+const task_01 = require('./task_01');
 // const task_02 = require('./task_02');
 // const task_03 = require('./task_03');
 // const task_04 = require('./task_04');
@@ -18,7 +18,7 @@ const CONFIG            = require('./config');
 // const task_15 = require('./task_15');
 
 // Task 01
-// console.log(task_01('SELECT model FROM cars'));
+console.log(task_01('SELECT model FROM cars'));
 
 // Task 02
 // console.log(task_02());

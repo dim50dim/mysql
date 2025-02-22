@@ -22,5 +22,9 @@ const syncMysql         = require('sync-mysql');
 const CONFIG            = require('./config');
 
 module.exports = function (query) {
+   const connection = new syncMysql(CONFIG);
+
+   const result = connection.query(query);
+   return result;
 
 }
