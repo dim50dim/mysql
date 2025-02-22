@@ -25,6 +25,6 @@ module.exports = function (query) {
    const connection = new syncMysql(CONFIG);
 
    const result = connection.query(query);
-   return result.map(item => item.model)
+   return result;
 
 }
