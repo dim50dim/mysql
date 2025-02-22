@@ -12,4 +12,11 @@ const CONFIG            = require('./config');
 const task_01 = require('./task_01');
 
 module.exports = function () {
+    let result = task_01('SELECT color, COUNT(*) as count FROM cars GROUP BY color');
+
+    let sum = result.reduce((accum,item) =>{
+        accum[item.color] = item.count;
+        return accum;
+    },{});
+    return sum;
 }
