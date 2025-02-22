@@ -11,5 +11,8 @@ const CONFIG            = require('./config');
 const task_01 = require('./task_01');
 
 module.exports = function () {
-    
+    const result = task_01('SELECT MAX(cost) as price FROM cars');
+
+      let sum = result.map(({price}) => price);
+   return sum;
 }
