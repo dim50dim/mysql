@@ -14,8 +14,8 @@ const CONFIG            = require('./config');
 // const task_11 = require('./task_11');
 // const task_12 = require('./task_12');
 // const task_13 = require('./task_13');
-const task_14 = require('./task_14');
-// const task_15 = require('./task_15');
+// const task_14 = require('./task_14');
+const task_15 = require('./task_15');
 
 // Task 01
 // console.log(task_01('SELECT model FROM cars'));
@@ -57,7 +57,7 @@ const task_14 = require('./task_14');
 // console.log(task_13());
 
 // Task 14
-console.log(task_14());
+// console.log(task_14());
 
 // Task 15
-// console.log(task_15());
+console.log(task_15());

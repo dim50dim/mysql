@@ -13,5 +13,8 @@ const CONFIG            = require('./config');
 const task_01 = require('./task_01');
 
 module.exports = function () {
+    const result = task_01('SELECT make,COUNT(*) as count FROM cars GROUP BY make');
+    const sum  = result.map(({make,count}) => [make,count]);
+    return sum;
 }
 
