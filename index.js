@@ -12,9 +12,9 @@ const CONFIG            = require('./config');
 // const task_09 = require('./task_09');
 // const task_10 = require('./task_10');
 // const task_11 = require('./task_11');
-const task_12 = require('./task_12');
+// const task_12 = require('./task_12');
 // const task_13 = require('./task_13');
-// const task_14 = require('./task_14');
+const task_14 = require('./task_14');
 // const task_15 = require('./task_15');
 
 // Task 01
@@ -51,13 +51,13 @@ const task_12 = require('./task_12');
 // console.log(task_11());
 
 // Task 12
-console.log(task_12());
+// console.log(task_12());
 
 // Task 13
 // console.log(task_13());
 
 // Task 14
-// console.log(task_14());
+console.log(task_14());
 
 // Task 15
 // console.log(task_15());

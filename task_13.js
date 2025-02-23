@@ -13,5 +13,8 @@ const CONFIG            = require('./config');
 const task_01 = require('./task_01');
 
 module.exports = function () {
+    const result = task_01('SELECT make,model,year FROM cars WHERE make = "audi" ORDER BY year DESC')
+    const sum = result.map(({make,model,year}) => [make,model,year]);
+    return sum;
 }
 
