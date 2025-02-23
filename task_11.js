@@ -13,5 +13,10 @@ const CONFIG            = require('./config');
 const task_01 = require('./task_01');
 
 module.exports = function () {
+    const result = task_01('SELECT make,model,cost FROM cars WHERE cost >= 10000 AND cost <= 20000');
+    const sum = result.map(({make,model,cost}) => [make,model,cost]);
+    console.log(sum.length);
+    return sum;
+    
 }
 

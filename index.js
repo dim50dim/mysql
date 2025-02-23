@@ -10,8 +10,8 @@ const CONFIG            = require('./config');
 // const task_07 = require('./task_07');
 // const task_08 = require('./task_08');
 // const task_09 = require('./task_09');
-const task_10 = require('./task_10');
-// const task_11 = require('./task_11');
+// const task_10 = require('./task_10');
+const task_11 = require('./task_11');
 // const task_12 = require('./task_12');
 // const task_13 = require('./task_13');
 // const task_14 = require('./task_14');
@@ -45,10 +45,10 @@ const task_10 = require('./task_10');
 // console.log(task_09());
 
 // Task 10
-console.log(task_10());
+// console.log(task_10());
 
 // Task 11
-// console.log(task_11());
+console.log(task_11());
 
 // Task 12
 // console.log(task_12());
